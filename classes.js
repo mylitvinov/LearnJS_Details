@@ -72,7 +72,7 @@ class Box extends Component {
   constructor (options) {
 super(options.selector)
 
-this.$el.style.width = this.$el.style.height = options.sixe + 'px'
+this.$el.style.width = this.$el.style.height = options.size + 'px'
 this.$el.style.background = options.color
   }
 }
