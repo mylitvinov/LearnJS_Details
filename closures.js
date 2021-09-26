@@ -10,7 +10,8 @@ const createCalcFunction = (n) => {
 }
 
 const calc = createCalcFunction(5); // получаем функцию
-calc(); // 5000
+console.log(calc) // [Function (anonymous)], ф-я, к-я return в createCalcFunction
+calc(); // 5000 // вызвали эту функцию с параметром n из области видимсоти createCalcFunction 
 
 
 const createIncrementor = (n) => {
